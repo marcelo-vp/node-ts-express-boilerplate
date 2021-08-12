@@ -5,12 +5,13 @@ root = true
 [*]
 end_of_line = lf
 insert_final_newline = true
+trim_trailing_whitespace = true
 
 # Set default charset
-[*.{ts}]
+[*.{js,ts}]
 charset = utf-8
 
 # space indentation
-[*.ts]
+[*.{js,json,ts}]
 indent_style = space
 indent_size = 2
